@@ -2,6 +2,55 @@ Integrantes
 Marielena Velasquez Escobar
 Ariel Esau Yanes Quintanilla
 
+Situación problemática
+
+En muchos talleres mecánicos o negocios relacionados con el mantenimiento de vehículos, el registro de los clientes y de los vehículos que ingresan se realiza de forma manual, ya sea en cuadernos o de memoria.
+
+Esto provoca problemas como:
+pérdida de información
+confusión en los datos de los clientes
+errores en las placas
+desorganización en los servicios realizados
+dificultad para dar seguimiento a los vehículos
+
+Como resultado, el trabajo se vuelve menos eficiente y puede afectar la atención al cliente.
+
+
+Sectores a los que va dirigida la solución
+
+La solución desarrollada está enfocada principalmente en:
+
+talleres mecánicos
+centros de mantenimiento automotriz
+negocios de diagnóstico vehicular
+pequeños emprendimientos del área automotriz
+
+
+
+Solución propuesta mediante la aplicación web
+
+Para resolver este problema, se desarrolló una aplicación web utilizando Vue.js que permite registrar y gestionar los vehículos que ingresan a mantenimiento.
+
+La aplicación cuenta con las siguientes funciones:
+registro de datos del vehículo (cliente, placa, servicio y prioridad)
+validación de información para evitar datos incorrectos o incompletos
+almacenamiento de los registros en una lista dinámica
+visualización de los vehículos en una tabla organizada
+eliminación de registros cuando sea necesario
+búsqueda de vehículos por placa
+mensajes de confirmación y error para mejorar la experiencia del usuario
+
+
+ Cómo la aplicación resuelve el problema
+ 
+
+La aplicación permite llevar un control digital y ordenado de los vehículos, evitando el uso de papel y reduciendo errores humanos.
+Además, facilita la organización del trabajo dentro del taller, mejora la rapidez en la atención y permite tener acceso inmediato a la información de los vehículos registrados.
+
+De esta forma, se mejora la eficiencia del negocio y la calidad del servicio brindado al cliente.
+
+
+
 * Explique con sus propias palabras qué es Vue.js y cuál es su función dentro de la
 página web desarrollada.
 
