@@ -1,11 +1,17 @@
-<script setup></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div>
+    <h1>Mi Proyecto Vue</h1>
+
+    <RegistroVehiculos />
+  </div>
 </template>
 
-<style scoped></style>
+<script>
+import RegistroVehiculos from './components/RegistroVehiculos.vue';
+
+export default {
+  components: {
+    RegistroVehiculos
+  }
+};
+</script>
